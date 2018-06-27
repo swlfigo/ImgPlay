@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		2C88DE6E20E3308D00B2FD7F /* ImgPlayPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C88DE6D20E3308D00B2FD7F /* ImgPlayPod.m */; };
-		2C88DE7020E3308D00B2FD7F /* ImgPlayPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2C88DE6F20E3308D00B2FD7F /* ImgPlayPod.podspec */; };
 		2C88DE7220E3308D00B2FD7F /* ImgPlayPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C88DE6C20E3308D00B2FD7F /* ImgPlayPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C88DE7920E3359800B2FD7F /* ImgPlayPod.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2C88DE7820E3359800B2FD7F /* ImgPlayPod.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C88DE6920E3308D00B2FD7F /* ImgPlayPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImgPlayPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C88DE6C20E3308D00B2FD7F /* ImgPlayPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImgPlayPod.h; sourceTree = "<group>"; };
 		2C88DE6D20E3308D00B2FD7F /* ImgPlayPod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImgPlayPod.m; sourceTree = "<group>"; };
-		2C88DE6F20E3308D00B2FD7F /* ImgPlayPod.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = ImgPlayPod.podspec; sourceTree = "<group>"; };
 		2C88DE7120E3308D00B2FD7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C88DE7820E3359800B2FD7F /* ImgPlayPod.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ImgPlayPod.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +34,7 @@
 		2C88DE5F20E3308D00B2FD7F = {
 			isa = PBXGroup;
 			children = (
+				2C88DE7820E3359800B2FD7F /* ImgPlayPod.podspec */,
 				2C88DE6B20E3308D00B2FD7F /* ImgPlayPod */,
 				2C88DE6A20E3308D00B2FD7F /* Products */,
 			);
@@ -52,7 +53,6 @@
 			children = (
 				2C88DE6C20E3308D00B2FD7F /* ImgPlayPod.h */,
 				2C88DE6D20E3308D00B2FD7F /* ImgPlayPod.m */,
-				2C88DE6F20E3308D00B2FD7F /* ImgPlayPod.podspec */,
 				2C88DE7120E3308D00B2FD7F /* Info.plist */,
 			);
 			path = ImgPlayPod;
@@ -126,7 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C88DE7020E3308D00B2FD7F /* ImgPlayPod.podspec in Resources */,
+				2C88DE7920E3359800B2FD7F /* ImgPlayPod.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
